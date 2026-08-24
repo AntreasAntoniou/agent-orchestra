@@ -1,0 +1,12 @@
+# OS / editor cruft
+.DS_Store
+*.swp
+*~
+
+# Node (workflow scripts are plain JS; no deps expected, but just in case)
+node_modules/
+npm-debug.log*
+
+# Local scratch / review assets produced by the example engine
+_review_assets/
+*.local.*
